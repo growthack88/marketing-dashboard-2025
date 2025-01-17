@@ -4,8 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/marketing-dashboard-2025' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/marketing-dashboard-2025' : '',
+  basePath: '',
+  reactStrictMode: true,
 }
-
-module.exports = nextConfig
